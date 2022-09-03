@@ -1,0 +1,29 @@
+package praktikum2_annisa;
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+
+public class Praktikum2_Annisa {
+
+    public static void main(String[] args) throws Exception {
+        
+        int num1 = 55555;
+        int num2 = 55555;
+        long fromInt = (long)num1;
+        long fromInt2 = (long)num2;
+        long result = fromInt*fromInt2;
+        
+        System.out.println(result);
+
+      String nama = JOptionPane.showInputDialog("Masukan Nama Anda");
+      JOptionPane.showMessageDialog(null, "Hallo "+ nama);
+     
+      String alamat = JOptionPane.showInputDialog("Masukan Alamat Anda");
+      JOptionPane.showMessageDialog(null, "Beralamat di "+ alamat);
+      
+      String angkatan = JOptionPane.showInputDialog("Tahun Angkatan Anda");
+      JOptionPane.showMessageDialog(null, "Angkatan "+ angkatan);
+
+    
+    }
+    
+}
